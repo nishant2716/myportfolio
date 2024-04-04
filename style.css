@@ -6,14 +6,14 @@
 
 body {
   margin: 0;
-  background-color:rgba(244, 244, 244, 0.587)smoke;
+  background-color:#C4CFCE;
   font-family: "protest riot";
 
 }
 
 #main {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -62,15 +62,17 @@ img {
 #hero-section {
   height: 100%;
   width: 100%;
-  color: #c51d1d;
+  color:  #2D689F;
   text-align: start;
   padding: 100px 0;
+  display: flex;
 }
 #hero {
-  width: 50%;
+  width: 40%;
   height: 100%;
   margin-left: 120px;
   margin-top: 50px;
+ 
 }
 .hero-text {
   font-size: 3em;
@@ -83,6 +85,20 @@ img {
   margin-bottom: 30px;
 }
 
+#hero-image{
+  width: 60%;
+  height: 80%;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+#hero-image img{
+  height: 500px;
+  width: 500px;
+  margin-top: -70px;
+  mix-blend-mode: multiply;
+  object-fit: contain;
+}
 
 .resume-btn {
   display: inline-block;
@@ -90,8 +106,8 @@ img {
   font-size: 1.2em;
   font-weight: bold;
   text-decoration: none;
-  color: #c51d1d;
-  background-color:salmon;
+  color:  #2D689F;
+  background-color :  #72a7d8;
   border-radius: 30px;
   transition: background-color 0.3s ease-in-out;
 }
@@ -118,7 +134,7 @@ img {
 #dumy-div{
   height:400px;
   width: 300px;
-  border: 2rem solid blue;
+  border: 2rem solid  #2D689F;
   margin-top: 70px;
   margin-left: 120px;
 }
@@ -141,7 +157,7 @@ img {
   font-size: 3em;
   margin-left: 180px;
   margin-bottom: 50px;
-  color: #c51d1d;
+  color: #2D689F
 }
 
 #content p {
@@ -168,7 +184,7 @@ img {
   margin-left: 350px;
   margin-bottom: 80px;
   margin-top: -50px;
-  color: #c51d1d;
+  color:  #2D689F
 }
 #section1,#section2{
   height: 50%;
@@ -190,9 +206,10 @@ img {
   width: 150px;
   height: 150px;
   white-space: nowrap;
+  mix-blend-mode: multiply;
 }
 #contact{
-  height: 10%;
+  height: 10vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -200,8 +217,8 @@ img {
   background-color:#0f0e0e3f;
   position:absolute;
   top: 50;
+  bottom: 0;
   
-
 }
 #contact h2{
   font-size: 1.5em;
@@ -224,3 +241,4 @@ img {
 ::-webkit-scrollbar {
   display: none;
 }
+
